@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Input Login page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <hr>
+        <form>
+            <div class="form-control">
+                <label for="">Username</label> <br>
+                <input type="text" required>
+            </div>
+
+            <div class="form-control">    
+                <label for="">Password</label> <br>
+                <input type="password" required>
+            </div>
+            <input type="checkbox" id="loggedin" name="loggedin" value="Login">
+            <label for="loggedin">Keep me logged in (for up to one year)</label><br>
+            <button class="btn">Login</button> <br>
+            <a href="#">Help with logging in</a> <br>
+            <a href="#">Forget your password?</a>
+            <p class="text">Don't have an account? <a href="#">Register</a></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
